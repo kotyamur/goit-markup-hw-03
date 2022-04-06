@@ -14,6 +14,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--theme-main);
     font-style: normal;
+    letter-spacing: 0.03em;
 }
 
 h1,
@@ -72,7 +73,6 @@ address {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .logo-designe {
@@ -133,9 +133,6 @@ address {
 }
 
 .call-btn {
-    /* display: flex;
-    align-items: center;
-    text-align: center; */
     border: 0;
     border-radius: 4px;
     padding: 10px 32px;
@@ -170,7 +167,6 @@ address {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--theme-heading);
 }
@@ -179,7 +175,6 @@ address {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 /* occupation */
@@ -196,7 +191,6 @@ address {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--theme-heading);
 }
 
@@ -222,7 +216,6 @@ address {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -241,7 +234,6 @@ address {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--theme-accent);
 }
 
@@ -251,7 +243,6 @@ address {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .footer-adress {
@@ -291,7 +282,6 @@ address {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--theme-heading);
     background-color: var(--theme-bg-btn);
 }
@@ -326,7 +316,6 @@ address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
     margin-bottom: 20px;
 }
 
