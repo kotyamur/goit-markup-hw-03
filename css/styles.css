@@ -109,6 +109,10 @@ address {
     color: inherit;
 }
 
+.header-navigation .link.current {
+    color: var(--theme-hover);
+}
+
 .header-contacts-link:hover,
 .header-nav-link:hover,
 .header-contacts-link:focus,
@@ -156,6 +160,19 @@ address {
     padding-bottom: 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
 .features-list {
     display: flex;
     gap: 30px;
@@ -199,6 +216,10 @@ address {
 }
 
 /* team */
+.team {
+    background-color: var(--theme-bg-btn);
+}
+
 .team-list {
     display: flex;
     gap: 30px;
